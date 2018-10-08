@@ -53,11 +53,6 @@ public class DevNetGenesisConfig extends GenesisConfig {
         }
 
         @Override
-        public int getNewBlockMaxSecondsInTheFuture() {
-            return 540;
-        }
-
-        @Override
         public int getDurationLimit() {
             return 14;
         }
